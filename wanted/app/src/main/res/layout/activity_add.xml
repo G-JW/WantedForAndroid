@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:textSize="40sp" android:text="上 传" android:id="@+id/text_upload"/>
+
+    <Button android:layout_height="60dp" android:layout_width="60dp" android:id="@+id/button_add" android:background="@drawable/add"/>
+
+    <EditText android:layout_height="60dp" android:layout_width="match_parent" android:id="@+id/edit_title" android:hint="编辑标题"/>
+
+    <EditText android:layout_height="60dp" android:layout_width="match_parent" android:id="@+id/position" android:hint="编辑地区"/>
+
+
+    -<LinearLayout android:layout_height="60dp" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center_horizontal">
+
+    <TextView android:layout_height="60dp" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp" android:text="人数下限：" android:id="@+id/text_down"/>
+
+    <EditText android:layout_height="60dp" android:layout_width="100dp" android:gravity="center" android:textSize="20sp" android:id="@+id/num_min"/>
+
+    <TextView android:layout_height="60dp" android:layout_width="wrap_content" android:gravity="center" android:textSize="20sp" android:text="人数上限：" android:id="@+id/text_up"/>
+
+    <EditText android:layout_height="60dp" android:layout_width="100dp" android:gravity="center" android:textSize="20sp" android:id="@+id/num_max"/>
+
+</LinearLayout>
+
+    <EditText android:layout_height="200dp" android:layout_width="match_parent" android:id="@+id/introduction" android:hint="编辑正文"/>
+
+    <!--<EditTextandroid:id="@+id/edittext_labels"android:layout_width="match_parent"android:layout_height="60dp"android:hint="编辑标签"/>-->
+
+
+    <Spinner android:layout_height="60dp" android:layout_width="match_parent" android:id="@+id/spinner"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="上传" android:id="@+id/submit" android:background="@drawable/button_shape" android:layout_marginTop="20dp" android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
